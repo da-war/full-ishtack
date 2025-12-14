@@ -6,6 +6,14 @@ export const ENV = {
     NODE_ENV: process.env.NODE_ENV,
     PORT: process.env.PORT,
     DB_URL: process.env.DB_URL || 'localhost',  
+    CLERK_PUBLISHABLE_KEY: process.env.CLERK_PUBLISHABLE_KEY,
+    CLERK_SECRET_KEY: process.env.CLERK_SECRET_KEY,
+    CLOUDFINARY_CLOUD_NAME: process.env.CLOUDINARY_CLOUD_NAME,
+    CLOUDFINARY_API_KEY: process.env.CLOUDINARY_API_KEY,
+    CLOUDFINARY_API_SECRET: process.env.CLOUDINARY_API_SECRET,
+
+    
+    
 }
 
 
